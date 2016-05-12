@@ -81,6 +81,11 @@ li {
     width:20px;
 }
 
+.download-icon {
+    height:20px;
+    width:80px;
+}
+
 .no-aside {
     width:93%;
 }
@@ -98,4 +103,17 @@ li {
 
 .header-image {
     padding-top: 25px;
+}
+
+.no-indent {
+    padding-left: 0px;
+}
+
+.li-details {
+    padding-left: 40px;
+    font-size: 80%;
+}
+
+.smaller-text {
+    font-size: 80%;
 }
