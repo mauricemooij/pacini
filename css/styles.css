@@ -114,3 +114,8 @@ li {
 .smaller-text {
     font-size: 80%;
 }
+
+i {
+    font-style: italic;    
+}
+}
