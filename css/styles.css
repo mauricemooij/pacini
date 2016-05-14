@@ -8,41 +8,14 @@ body {
 .container {
     margin-left: 10%;
     margin-right: 10%;
+    background-color: #5F021F;
 }
 
-h1,h2,h3,h4 {
+h1, h2, h3, h4 {
     font-family: Georgia, serif;
     color: #5F021F;
     font-weight: bold;
 }
-
-.group__header h1 {
-    text-align: center;
-}
-
-.group__header h4 {
-    text-align: center;
-}
-
-hr {
-    border: none;
-    color: #5F021F;
-    background-color: #5F021F;
-    height: 1px;
-}
-
-section {
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
-}
-
-aside {
-    float: right;
-    margin: 0 1.5%;
-    width: 30%;
-}
-
 
 .group:before, .group:after {
     content: "";
@@ -60,8 +33,39 @@ aside {
 
 }
 
-.container {
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header h4 {
+    text-align: center;
+}
+
+.header-image {
+    padding-top: 25px;
+}
+
+hr {
+    border: none;
+    color: #5F021F;
     background-color: #5F021F;
+    height: 1px;
 }
 
 li {
@@ -87,35 +91,28 @@ li {
     width:93%;
 }
 
-
-.group__header {
-    padding-top: 50px;
-}
-
 .footer {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #5F021F;
 }
 
-.header-image {
-    padding-top: 25px;
-}
-
 .no-indent {
     padding-left: 0px;
 }
 
-.li-details {
+.yes-indent {
     padding-left: 40px;
-    font-size: 80%;
 }
 
 .smaller-text {
     font-size: 80%;
 }
 
+b {
+    font-weight: bold;
+}
+
 i {
     font-style: italic;    
-}
 }
