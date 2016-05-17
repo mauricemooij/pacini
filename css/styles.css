@@ -5,16 +5,22 @@ body {
     background: #5F021F;
 }
 
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+    color: #5F021F;
+    font-weight: bold;
+}
+
 .container {
     margin-left: 10%;
     margin-right: 10%;
     background-color: #5F021F;
 }
 
-h1, h2, h3, h4 {
-    font-family: Georgia, serif;
-    color: #5F021F;
-    font-weight: bold;
+.group {
+    clear: both;
+    *zoom: 1;
+    background-color: #ffffff;
 }
 
 .group:before, .group:after {
@@ -24,13 +30,6 @@ h1, h2, h3, h4 {
 
 .group:after {
     clear: both;
-}
-
-.group {
-    clear: both;
-    *zoom: 1;
-    background-color: #ffffff;
-
 }
 
 section {
@@ -63,9 +62,9 @@ aside {
 
 hr {
     border: none;
-    color: #5F021F;
-    background-color: #5F021F;
-    height: 1px;
+    color: #FF0000;
+    background-color: #FF0000;
+    height: 2px;
 }
 
 li {
@@ -115,4 +114,25 @@ b {
 
 i {
     font-style: italic;    
+}
+
+.header-subtext {
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    margin: 0;
+    color: #5F021F;
+}
+
+.extra-space {
+    padding-bottom: 70px;
+}
+
+.larger-text {
+    font-size: 120%;
 }
