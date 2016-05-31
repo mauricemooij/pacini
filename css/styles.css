@@ -136,3 +136,8 @@ p {
 .larger-text {
     font-size: 120%;
 }
+
+.custom-subtext {
+    margin-left: 45px;
+    color: #5F021F;
+}
